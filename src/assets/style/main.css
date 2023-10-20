@@ -4,7 +4,7 @@
     justify-content: center;
 }
 .formulario1{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 40%;
     height: 200px;
     color: rgb(3, 3, 3);
@@ -13,6 +13,8 @@
     justify-content: center;
     flex-direction: column;
     border-radius:5px;
+    gap: 10px;
+    border: 2px solid rgb(255, 0, 0);
 }
 
 .contenedor2{
@@ -40,6 +42,8 @@ input:hover{
     border:none;
     border-radius: 2px;
     width: 50%;
+    display: block;
+    width: 100%;
 }
 body{
     background-color: rgb(214, 209, 209);

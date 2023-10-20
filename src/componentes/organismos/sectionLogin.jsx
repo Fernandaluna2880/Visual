@@ -1,7 +1,6 @@
-import Input from "../moleculas/Input";
-import style from '../../assets/style/main.css'
-import Button from "../atomos/Button";
 import { useState } from "react";
+import Button from "../atomos/Button";
+import Input from "../moleculas/Input";
 function SectionLogin() {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
@@ -35,10 +34,16 @@ function SectionLogin() {
             <div className="formulario1">
                 <div className="contenedor2">
                 <Input className="textoLabel" name="email" title="email" type="email" onBlur={validar} onchange={handlerChangeEmail} />
+
+                </div>
+                <div className="contenedor2">
                 <Input className="textoLabel" name="username" title="user name" type="text" onchange={handlerChangeUsername} />
                 </div>
                 <div className="contenedor2">
                 <Input className="textoLabel" name="password" title="password" type="password" />
+                
+                </div>
+                <div className="contenedor2">
                 <Button className="botonCrearCuenta" onClick={()=>handleClick()} textoBoton="crear cuenta"/>
                 </div>
             </div>

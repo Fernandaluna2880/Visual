@@ -1,0 +1,46 @@
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formulario1{
+    background-color: white;
+    width: 40%;
+    height: 200px;
+    color: rgb(3, 3, 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:5px;
+}
+
+.contenedor2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.textoLabel{
+    font-family:monospace;
+   
+}
+input{
+    border: none;
+    border-bottom: 1px solid rgb(66, 178, 209);
+    outline: none;
+    border-radius: 1px;
+    transition: 0.3s ease-in-out;
+}
+input:hover{
+    border-bottom: 1px solid rgb(59, 159, 59);
+}
+.botonCrearCuenta{
+    background-color: rgb(59, 159, 59);
+    color: white;
+    border:none;
+    border-radius: 2px;
+    width: 50%;
+}
+body{
+    background-color: rgb(214, 209, 209);
+}
